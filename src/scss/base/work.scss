@@ -1,0 +1,28 @@
+.work {
+    text-align: center;
+    padding: 100px 0 150px;
+
+    &__img {
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        color: #515151;
+        font-size: 31px;
+        font-weight: 600;
+        text-transform: uppercase;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        color: rgba($color: #515151, $alpha: .7);
+        font-size: 19px;
+        font-weight: 400;
+
+        &+& {
+            margin-top: 50px;
+        }
+    }
+}

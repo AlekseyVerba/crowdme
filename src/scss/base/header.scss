@@ -1,0 +1,51 @@
+.header {
+    position: relative;
+
+    &__logo {
+        padding-bottom: 7px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 21px 0 28px;
+    }
+
+    &__item {
+        display: inline-block;
+
+        a {
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all .3s;
+            color: rgba($color: #666666, $alpha: 0.7);
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: normal;
+            text-transform: uppercase;
+
+            &:hover {
+                background: rgb(236, 235, 235);
+            }
+        }
+    }
+
+    &__button {
+        background-color: rgba($color: #add136, $alpha: 0.8);
+        padding: 10px 30px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        color: rgba($color: #ffffff, $alpha: 0.8);
+        font-size: 13px;
+        font-weight: 400;
+        transition: all .3s;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: rgba($color: #add136, $alpha: 1);
+        }
+    }
+
+}

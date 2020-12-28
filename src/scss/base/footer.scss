@@ -1,0 +1,22 @@
+.footer {
+    padding: 40px 0;
+
+    &__wrapper {
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(0, 0, 0, .10);
+    }
+
+    &__logs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text {
+        text-align: center;
+        margin-top: 25px;
+        color: #848484;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
